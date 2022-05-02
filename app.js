@@ -114,7 +114,9 @@ app.get("/about", (req, res, next) => {
   res.render("about");
 });
 
-
+app.post("/", (req, res, next) => {
+  res.render("index");
+});
 
 /*
     ToDoList routes
