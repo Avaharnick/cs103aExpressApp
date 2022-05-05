@@ -1,0 +1,17 @@
+<h2>Enter Player Info</h2>
+<form method="post" action="/player/enterPLayerInfo">
+    Player name :<input type="text" name="playerName"><br>
+    Catches:<input type="number" name="catches"><br>
+    Goals:<input type="number" name="goals"><br>
+    Assisists:<input type="number" name="assists"><br>
+    Defensive Plays:<input type="number" name="dPlays"><br>
+    Points Played :<input type="number" name="pointsPlayed"><br>
+    <input type="submit" value="Save Item"><br>
+</form>
+
+<h2>Enter a players name to see their stats</h2>
+<form method="post" action="/player/findPlayer">
+    Player Name :<input type="text" name="searchingPlayer"><br>
+    <input type="submit" value="Submit"><br>
+</form>
+
